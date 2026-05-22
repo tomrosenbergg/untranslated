@@ -15,53 +15,65 @@
             padding: 60px 30px;
             word-wrap: break-word;
         }
-        h1, h2 {
-            font-size: 1.1em;
+        h1 {
+            font-size: 1.3em;
             font-weight: bold;
             text-transform: uppercase;
-            margin-bottom: 5px;
+            margin-bottom: 30px;
             text-decoration: underline;
         }
-        .meta { font-style: italic; margin-bottom: 40px; }
-        .section { margin-bottom: 50px; }
-        ul { list-style-type: square; padding-left: 20px; }
-        li { margin-bottom: 10px; }
+        .section { margin-bottom: 40px; }
         a { color: #000; }
-        .footer { margin-top: 80px; border-top: 1px solid #000; padding-top: 20px; }
-        .disclaimer { font-size: 0.85em; line-height: 1.4; color: #333; }
-        .contact { font-weight: normal; }
-        .contact a { text-decoration: none; }
+        
+        .cta-button {
+            display: inline-block;
+            border: 1px solid #000;
+            color: #000;
+            text-decoration: none;
+            padding: 10px 20px;
+            text-transform: uppercase;
+            font-size: 0.9em;
+            margin: 25px 0 15px 0;
+            transition: background 0.2s, color 0.2s;
+        }
+        .cta-button:hover {
+            background: #000;
+            color: #fff;
+        }
+
+        /* Subtle 1px border matching the button width, pushed down slightly */
+        .footer { margin-top: 80px; border-top: 1px solid #eee; padding-top: 20px; }
+        
+        /* Smaller text size and muted gray color */
+        .disclaimer { font-size: 0.8em; line-height: 1.5; color: #777; }
+        .footer a { color: #777; text-decoration: none; }
+        .footer a:hover { text-decoration: underline; color: #333; }
     </style>
 </head>
 <body>
 
-    <header class="section">
+    <header>
         <h1>Dream Interpretation</h1>
     </header>
-    <div class="section">
-        <p>Dream interpretation is a powerful method for understanding the unconscious mind. Dreams often appear enigmatic, confusing or meaningless, but through interpretation they can reveal deeply held beliefs, fantasies and desires.</p>
-        
-        <p>In our one-on-one sessions you will freely associate to the elements of your dream, saying whatever comes to mind without censorship. I will listen attentively, without judgement, and help you unravel the patterns of your unconscious thought. For many, the practice is a powerful method to overcome creative blocks and find a deeper self-understanding.</p>
-    </div>
-<!-- 
-    <div class="section">
-        <h2>Terms</h2>
-        <ul>
-            <li>One-on-one, fifty-minute sessions.</li>
-            <li>Payment on a sliding scale</li>
-            <li>Sessions are conducted online over voice calls.</li>
-            <li>Our conversations are private.</li>
-        </ul>
-    </div> -->
 
     <div class="section">
-        <p>To schedule a 50 minute session, please contact:</p>
-        <p class="contact"><a href="mailto:hello@untranslated.xyz">hello@untranslated.xyz</a></p>
+        <p><strong>Your dreams don't come with a dictionary. They speak in a language unique to you.</strong></p>
+        
+        <p>In my practice, I do not tell you what your dreams mean. Instead, I help you interpret the contents of your own mind. Using the technique of free association, we collaborate one-on-one to untangle the patterns of your unconscious thought. For many, dream interpretation is a way to overcome creative blocks and gain a deeper self-understanding. Once learned, the practice can be continued alone or with a partner. A private, online session is fifty minutes and costs $50.</p>
+    </div>
+
+    <div class="section">
+        <p>To learn more, book a free fifteen-minute consultation.</p>
+        
+        <a href="https://calendar.app.google/92pqY3PBsnBJ2GbG9" class="cta-button">Book a Free Consultation</a>
     </div>
 
     <div class="footer">
+        <p class="disclaimer" style="margin-bottom: 15px;">
+            Inquiries: <a href="mailto:hello@untranslated.xyz">hello@untranslated.xyz</a>
+        </p>
         <p class="disclaimer">
-            <strong>Disclaimer:</strong> Dream interpretation does not treat mental health conditions. It is not a substitute for licensed mental health care.
+            Disclaimer: Dream interpretation does not treat mental health conditions and is not a substitute for mental health care.
         </p>
     </div>
 
